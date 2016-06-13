@@ -3,9 +3,9 @@ Transmission-line matrix simulator. Solver with graphical interface for 2D elect
 
 Copyright &copy; 2010 to 2016. Hugo Fernando Maia Milan (hugofernando@gmail.com).
 
-I developed this software in Matlab years ago (2010 to 2013) and I did not work on it since then. However, considering that code for TLM is scarce, I decided to upload it as it is (or better, as "it was"). It uses GNU GPL v3 so, feel free to modify and use it.
+I developed this software in Matlab years ago (2010 to 2014) and I did not work on it since then. However, considering that code for TLM is scarce, I decided to upload it as it is (or better, as "it was"). It uses GNU GPL v3 so, feel free to modify and use it.
 
-A discussion about SimEMTher was published in Milan et al. (2012). Then, I used it in Milan et al. (2014) and Maia et al. (2014). I had programmed it to solve the electromagnetism scattering for 2D TM and TE modes and the temperature propagation in biological tissues (if you are looking for TLM to solve the bioheat equation, it will be better to use https://github.com/hugomilan/tlmbht). Below is a simplified instruction on how to run it.
+A discussion about SimEMTher was published in Milan et al. (2012). Then, I used it in Milan et al. (2014) and Maia et al. (2014). I had programmed it to solve the electromagnetism scattering for 2D TM and TE modes and the temperature propagation in biological tissues (if you are looking for TLM to solve the bioheat equation, it will be better to use <a href=https://github.com/hugomilan/tlmbht>tlmbht</a>). Below is a simplified instruction on how to run it.
 
 The software runs on top of matlab. Run tlm.m to start it.
 
@@ -35,6 +35,10 @@ First of all, I don't have an explicitly desire to keep working on that. You can
 
 &bull; There is no EM 3D.
 
+
+<b>Acknowledgment</b>
+
+Brazilian National Counsel of Technological and Scientific Development (CNPq) and University of Rondonia (UNIR) for (institutional research assistant) scholarship to HFMM.
 
 
 <b>References</b>
