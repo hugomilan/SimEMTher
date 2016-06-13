@@ -1,7 +1,7 @@
 # SimEMTher
 Transmission-line matrix simulator. Solver with graphical interface for 2D electromagnetism scattering and temperature propagation (see below).
 
-Copyright &copy; 2010 to 2016. Hugo Fernando Maia Milan (hugofernando@gmail.com).
+Copyright &copy; 2010 to 2016. Hugo Fernando Maia Milan.
 
 I developed this software in Matlab years ago (2010 to 2014) and I did not work on it since then. However, considering that code for TLM is scarce, I decided to upload it as it is (or better, as "it was"). It uses GNU GPL v3 so, feel free to modify and use it.
 
