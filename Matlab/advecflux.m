@@ -1,4 +1,4 @@
-%Copyright &copy; 2010 to 2016. Hugo Fernando Maia Milan (hugofernando@gmail.com).
+%Copyright © 2010 to 2016. Hugo Fernando Maia Milan (hugofernando@gmail.com).
 
 function [malha, resul] = advecflux (malha, mt, resul, c, ADSB, ...
     ADNO, ADCON, campo, portemter)
