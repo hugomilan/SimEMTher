@@ -1,3 +1,5 @@
+%Copyright Â© 2010 to 2016. Hugo Fernando Maia Milan (hugofernando@gmail.com).
+
 function [malha, resul] = advecuniflux (malha, mt, resul, c, ADSB, ...
     ADNO, ADCON, campo)
 global calesp diaanimal gravidade Pressao
@@ -19,7 +21,7 @@ for x = 1:quantflux
     GraRe = Gra/Re^2;
     
     if GraRe <= 0.08
-        %forçada
+        %forÃ§ada
         if Re < 40 && Re >= 0
             Nu = 0.75*Re^(0.4)*Pra^(0.37);
         elseif Re < 1000 && Re >= 40
@@ -49,8 +51,8 @@ for x = 1:quantflux
         Nu = (0.6 + 0.387*(Gra*Pra)^(1/6)*(1 + (0.559/Pra)^(9/16))^(-8/27))^2;
     end
     
-    transf = (T1 - T2)*ADCON(x,1)*Nu*5e6... %convecção
-        + (T1^4 - T2^4)*ADCON(x,2)*5e6; %radiação
+    transf = (T1 - T2)*ADCON(x,1)*Nu*5e6... %convecÃ§Ã£o
+        + (T1^4 - T2^4)*ADCON(x,2)*5e6; %radiaÃ§Ã£o
     
     malha{ADSB(x)}{ADNO(x)}(mt,1) = malha{ADSB(x)}{ADNO(x)}(mt,1) + transf;
     malha{ADSB(x)}{ADNO(x)}(mt,2) = malha{ADSB(x)}{ADNO(x)}(mt,2) + transf;
