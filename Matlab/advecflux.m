@@ -1,12 +1,14 @@
+%Copyright &copy; 2010 to 2016. Hugo Fernando Maia Milan (hugofernando@gmail.com).
+
 function [malha, resul] = advecflux (malha, mt, resul, c, ADSB, ...
     ADNO, ADCON, campo, portemter)
 quantflux = size(ADSB,1);
 for x = 1:quantflux
 
     transf = (ADCON(x,3) - ...
-         resul{ADSB(x,1),ADSB(x,2)}(ADNO(x,1),ADNO(x,2),c,campo))*ADCON(x,1);%... %convecção
+         resul{ADSB(x,1),ADSB(x,2)}(ADNO(x,1),ADNO(x,2),c,campo))*ADCON(x,1);%... %convecÃ§Ã£o
         + ((ADCON(x,3))^4 - ...
-        resul{ADSB(x,1),ADSB(x,2)}(ADNO(x,1),ADNO(x,2),c,campo)^4)*ADCON(x,2);% %radiação
+        resul{ADSB(x,1),ADSB(x,2)}(ADNO(x,1),ADNO(x,2),c,campo)^4)*ADCON(x,2);% %radiaÃ§Ã£o
     
     
 malha{ADSB(x,1),ADSB(x,2)}{ADNO(x,1),ADNO(x,2)}(mt,1 + portemter) = ...
