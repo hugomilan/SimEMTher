@@ -29,11 +29,15 @@ First of all, I don't have an explicitly desire to keep working on that. You can
 
 &bull; Matlab is known to help in rapid prototyping but kind of slower than other languages.
 
+&bull; Saving and loading is odd.
+
 &bull; The only geometry that the solver solves is the one that it creates. It should be able to read more advanced geometries from Gmsh (at least).
 
 &bull; The nodes for EM are 2D and rectangular. It should use more advanced formulations, like the triangular node from Sewell (Sewell et al., 2004ab).
 
 &bull; There is no EM 3D.
+
+&bull; General programming revision for speed up and parallelization.
 
 
 <b>Acknowledgment</b>
