@@ -3,7 +3,7 @@ Transmission-line matrix simulator. Solver with graphical interface for 2D elect
 
 Copyright &copy; 2010 to 2016. Hugo Fernando Maia Milan.
 
-I developed this software in Matlab years ago (2010 to 2014) and I did not work on it since then. However, considering that code for TLM is scarce, I decided to upload it as it is (or better, as "it was"). I choose to release it under the GNU GPL v3 license but I may change it. However, what I will not change is to keep this software open-source and free for research/education. If you have any concern, please fell free to contact me.
+I developed this software in Matlab years ago (2010 to 2014) and I did not work on it since then. However, considering that code for TLM is scarce, I decided to upload it as it is (or better, as "it was"). It is licensed under the GNU GPL v3 license (free and open source license).
 
 A discussion about SimEMTher was published in Milan et al. (2012). Then, I used it in Milan et al. (2014) and Maia et al. (2014). I had programmed it to solve the electromagnetism scattering for 2D TM and TE modes and the temperature propagation in biological tissues (if you are looking for TLM to solve the bioheat equation, it will be better to use <a href=https://github.com/hugomilan/tlmbht>tlmbht</a>). Below is a simplified instruction on how to run it.
 
