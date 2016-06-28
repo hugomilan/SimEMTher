@@ -1,7 +1,20 @@
 # SimEMTher
 Transmission-line matrix simulator. Solver with graphical interface for 2D electromagnetism scattering and temperature propagation (see below).
 
-Copyright &copy; 2010 to 2016. Hugo Fernando Maia Milan.
+Copyright &copy; 2010 to 2016. Hugo Fernando Maia Milan. All rights reserved.
+
+========================================================================================
+ 
+<b>License</b>
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+See the license file for more information.
+
+========================================================================================
 
 I developed this software in Matlab years ago (2010 to 2014) and I did not work on it since then. However, considering that code for TLM is scarce, I decided to upload it as it is (or better, as "it was"). It is licensed under the GNU GPL v3 license (free and open source license).
 
@@ -60,3 +73,5 @@ Milan, H.F.M., Carvalho Jr., C.A.T., Maia, A.S.C., Gebremedhin, K.G., 2014. Grad
 Sewell, P., Wykes, J., Benson, T., Christopoulos, C., Thomas, D.W.P., Vukovic, A., 2004a. Transmission-line modeling using unstructured triangular meshes. IEEE T. Microw. Theory Tech. 52, 1490-1497.
 
 Sewell, P., Wykes, J.G., Benson, T., Thomas, D.W.P., Vukovic, A., Christopoulos, C., 2004b. Transmission line modelling using unstructured meshes. IEE Proc.-Sci. Meas. Technol. 151, 445-448.
+
+
