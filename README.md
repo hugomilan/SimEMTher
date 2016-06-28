@@ -1,7 +1,7 @@
 # SimEMTher
 Transmission-line matrix simulator. Solver with graphical interface for 2D electromagnetism scattering and temperature propagation (see below).
 
-Copyright &copy; 2010 to 2016. Hugo Fernando Maia Milan. All rights reserved.
+Copyright &copy; 2010 to 2016. Hugo Fernando Maia Milan.
  
 <b>License</b>
 
