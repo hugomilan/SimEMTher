@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.251584.svg)](https://doi.org/10.5281/zenodo.251584)
+
 # SimEMTher
 Transmission-line matrix simulator. Solver with graphical interface for 2D electromagnetism scattering and temperature propagation (see below).
 
