@@ -19,6 +19,8 @@ I developed this software in Matlab years ago (2010 to 2014) and I did not work 
 
 A discussion about SimEMTher was published in Milan et al. (2012). Then, I used it in Milan et al. (2014) and Maia et al. (2014). I had programmed it to solve the electromagnetism scattering for 2D TM and TE modes and the temperature propagation in biological tissues (if you are looking for TLM to solve the bioheat equation, it will be better to use <a href=https://github.com/hugomilan/tlmbht>tlmbht</a>). Below is a simplified instruction on how to run it.
 
+<b>Usage</b>
+
 The software runs on top of matlab. Run tlm.m to start it.
 
 The first screen that appears is the home screen. Select the dimension that you want to simulate. After, go to input mesh, and select the number of nodes, the size of each node and click on generate the mesh. Then, go to characteristics editor, select the type of fields to simulate (electromagnetic and thermal), input the characteristics of the medium and add how much mediums you want. Make sure that, when using EM in 2D, the propagation mode (TM or TE) is selected. Input the characteristics of the mesh and finally edit the boundaries of the simulation. To EM there are boundaries based in the reflection coefficient.
